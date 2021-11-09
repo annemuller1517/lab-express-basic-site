@@ -1,6 +1,7 @@
 const galleries = document.querySelectorAll(".gallery");
 const modal = document.querySelector(".modal");
 
+
 modal.addEventListener("click", () => {
   modal.style.display = "none";
 });
@@ -13,3 +14,6 @@ galleries.forEach((gallery) => {
     img.src = imgGallery;
   });
 });
+
+
+
